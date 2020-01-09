@@ -4,6 +4,59 @@
     "/Users/breynolds-carr/Documents/Projects/Sandpit/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {}
   },
   "projects": {
+    "/Users/breynolds-carr/Documents/Projects/Sandpit/gradebook/src/GradeBook/GradeBook.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/breynolds-carr/Documents/Projects/Sandpit/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectName": "GradeBook",
+        "projectPath": "/Users/breynolds-carr/Documents/Projects/Sandpit/gradebook/src/GradeBook/GradeBook.csproj",
+        "packagesPath": "/Users/breynolds-carr/.nuget/packages/",
+        "outputPath": "/Users/breynolds-carr/Documents/Projects/Sandpit/gradebook/src/GradeBook/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/breynolds-carr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/breynolds-carr/Documents/Projects/Sandpit/gradebook/test/GradeBook.Tests/GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +80,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/breynolds-carr/Documents/Projects/Sandpit/gradebook/src/GradeBook/GradeBook.csproj": {
+                "projectPath": "/Users/breynolds-carr/Documents/Projects/Sandpit/gradebook/src/GradeBook/GradeBook.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -10,7 +10,8 @@ namespace GradeBook
             var book = new Book("Ben's Grade Book");
             book.AddGrade(89.1);
             book.AddGrade(90.1);
-            book.ShowStats();
+            
+            var stats = book.GetStatistics();
         }
     }
 }

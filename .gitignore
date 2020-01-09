@@ -1,3 +1,2 @@
-src/GradeBook/bin
-src/GradeBook/obj
-src/GradeBook.Tests/obj
+bin
+obj
