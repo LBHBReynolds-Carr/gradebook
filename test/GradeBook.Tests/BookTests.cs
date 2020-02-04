@@ -21,6 +21,19 @@ namespace GradeBook.Tests
             Assert.Equal(85.6, result.Average, 1);
             Assert.Equal(90.5, result.High, 1);
             Assert.Equal(77.3, result.Low, 1);
+            Assert.Equal('B', result.Letter);
         }
+
+        // [Fact]
+        // public void GradeWillNotAcceptsOutsideRange()
+        // {
+        //     var book = new Book("");
+
+        //     var result1 = book.AddGrade(-5.4);
+        //     var result2 = book.AddGrade(107);
+
+        //     Assert.Equal("Invalid Value", result1);
+        //     Assert.Equal("Invalid Value", result2);
+        // }
     }
 }
